@@ -1,0 +1,91 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 6.25%;
+}
+
+body{
+  min-height: 100vh;
+font-size: 18rem;
+display: grid;
+place-content: center;
+
+}
+
+main{
+max-width: 85%;
+margin: auto;
+text-align: center;
+
+}
+
+.grid-2columns{
+ display: grid;
+margin: auto;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+justify-items: center;
+align-items: center;
+gap: 20rem;
+
+}
+ h1{
+  max-width: 15ch;
+color: ;
+ }
+ .description{
+max-width: 40ch;
+color: ;
+ }
+ .stars{
+  gap: 10rem;
+display: flex;
+flex-direction: column;
+background-color: ;
+border-radius: 15rem;
+padding: 20rem 25rem;
+width: 100%;
+ }
+
+
+.grid-3columns{
+display: grid;
+gap: 70rem;
+
+}
+
+  .coment-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+    background-color: ;
+    border-radius: 20rem;
+text-align: left;
+  }
+  picture img{
+    border-radius: 50%;
+    max-width: 80%;
+  }
+  .user{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+  }
+  .user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .name{
+color: ;
+  }
+  .status{
+color: ;
+  }
+  .coment{
+max-width: 30ch;
+  }
