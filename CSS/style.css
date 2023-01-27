@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 html {
@@ -63,6 +64,7 @@ h1 {
   font-weight: 700;
   max-width: 15ch;
   color: hsl(300, 43%, 22%);
+  margin: auto;
 }
 .description {
   font-weight: 500;
@@ -124,13 +126,67 @@ picture img {
   line-height: 25rem;
 }
 
-  .attribution {
-    color:hsl(300, 43%, 22%);
-    margin-top: 25rem;
-    font-size: 16rem;
-    text-align: center;
-    font-weight: 500;
+.attribution {
+  color: hsl(300, 43%, 22%);
+  margin-top: 25rem;
+  font-size: 16rem;
+  text-align: center;
+  font-weight: 500;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media(min-width:600px){
+  .grid-2columns{
+    grid-template-columns: 1fr 1fr;
+   
+   grid-template-rows: 1fr;
+
   }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
+  .grid-3columns{
+    grid-template-columns: 1fr 1fr 1fr;
+  
   }
+  .star-container{
+    grid-column: 2;
+   width: 100%;
+
+
+
+    
+  }
+  .stars{
+    flex-direction: row;
+  margin-top: 40rem;
+    max-width: 450rem;
+    
+  }
+.stars:nth-of-type(2){
+  margin-left: 30rem;
+}
+.stars:nth-of-type(3){
+  margin-left: 60rem;
+}
+h1{
+  margin: 25rem 0;
+}
+
+
+  .main-container{
+    grid-column: 1;
+    justify-self:flex-start ;
+ font-size: 25rem;
+    text-align: left;
+    
+  }
+  header, footer{
+    
+    max-width: 65%;
+   height: 30%;
+  }
+  footer{
+    justify-self: right;
+
+  }
+}
