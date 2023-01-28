@@ -58,7 +58,12 @@ main {
   grid-template-rows: 1fr 1fr;
   justify-items: center;
   align-items: center;
-  gap: 20rem;
+  
+}
+.main-container{
+display: flex;
+flex-direction: column;
+  gap: 25rem;
 }
 h1 {
   font-weight: 700;
@@ -70,6 +75,11 @@ h1 {
   font-weight: 500;
   max-width: 32ch;
   color: hsl(303, 10%, 53%);
+}
+.star-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
 }
 .stars {
   gap: 10rem;
